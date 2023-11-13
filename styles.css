@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'FashionWacks';
-    src: url(css/font/FashionWacks.otf);   
+    font-family: fashion;
+    src: url(font/FashionWacks.otf);   
 }
 
 :root{
@@ -64,7 +64,6 @@ p{
 }
 .centerBG{
     border: 1px solid red;
-    vertical-align: baseline;
     position: absolute;
     display: block;
     width: auto;
@@ -113,9 +112,13 @@ p{
         gap: 7.5em;
         width: 100%;
     }
-    .header__link_left:hover, 
-    .header__link_right:hover{
+    .header__link_left:hover
+    {
         color:var(--main-violet);
+    }
+    .header__link_right:hover
+    {
+        color:var(--main-grey);
     }
     .header__link_left{
         color:var(--main-black);
@@ -123,7 +126,8 @@ p{
         transition: color .3s;
         font-size:var(--size-base);
         letter-spacing: -.05rem;
-        font-family: 'Fashionwacks',sans-serif;
+        font-family: fashion,sans-serif;
+        font-weight: bold;
     }
     .header__link_right{
         color:var(--main-white);
@@ -131,7 +135,8 @@ p{
         transition: color .3s;
         font-size:var(--size-base);
         letter-spacing: -.05rem;
-        font-family: 'Fashionwacks',sans-serif;
+        font-family: fashion,sans-serif;
+        font-weight: bold;
     }
     .header__search{
         background-color: transparent;
