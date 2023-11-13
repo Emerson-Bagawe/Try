@@ -1,0 +1,37 @@
+
+.container {
+    width:100%;
+    }
+    /* Xs*/
+    @media (min-width: 475px) {
+    .container{
+    Max-width: 475px;}
+    }
+    /* sm*/
+    @media (min-width: 640px) {
+        .container{
+    Max-width: 640px;}
+    }
+    /* md*/
+    @media (min-width: 768px) {
+    .container{
+    Max-width: 768px;}
+    }
+    /* lg*/
+    @media (min-width: 1024px) {
+    .container{
+    Max-width: 1024px;}
+    }
+    /* xl*/
+    @media (min-width: 1280px) {
+    .container{
+    Max-width: 1280px;}
+    }
+    /* 2xl*/
+    @media (min-width: 1536px) {
+    .container{
+    Max-width: 1536px;}
+    }
+    
+
+
