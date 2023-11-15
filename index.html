@@ -3,36 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>DRESSIRE</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Dressire</title>
 </head>
 <body>
-    <header class="header container"> <!-- START OF HEADER-->
-            <ul class="header__menu_left">          
-                <li>
-                    <button class="header__search">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <a class="header__link_left" href="#HOME">HOME</a>
-                </li>
-                <li>
-                    <a class="header__link_left" href="#MEN">MEN</a>
-                </li>
-                <li>
-                    <a class="header__link_left" href="#WOMEN">WOMEN</a>
-                </li>
-                </ul>
-            <ul class="header__menu_right">
-                <li>
-                    <a class="header__link_right" href="#KIDS">KIDS</a>
-                </li>
-                <li>
-                    <a class="header__link_right" href="#COLLECTIONS">COLLECTIONS</a>
-                    <div class="collections__dropdown">
+    <header class="header container">
+        <ul class="header__menu">
+            <li>
+                <button class="header__search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <a class="header__link" href="#HOME">HOME</a>
+            </li>
+            <li>
+                <a class="header__link" href="#MEN">MEN</a>
+            </li>
+            <li>
+                <a class="header__link" href="#WOMEN">WOMEN</a>
+            </li>
+            <li>
+                <a class="header__link" href="#KIDS">KIDS</a>
+            </li>
+            <li>
+                <a class="header__link" href="#COLLECTIONS">COLLECTIONS</a>
+                <div class="collections__dropdown">
                     <ul>
                         <li ><a href="#">KIDS</a>
                             <div class="collections__option">
@@ -62,65 +60,57 @@
                             <li><a href="#">PASTEL</a></li>
                             </ul>
                             </div>
-                        </li>
+                        </li>           
                     </ul>
                 </div>
             </li>
-                <li>
-                    <a class="header__link_right" href="#ABOUT US">ABOUT US</a>
-                </li>
-                <li>
-                    <button class="header__profile">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                    </button>
-                </li>
-            </ul>
-            <button class="header__hamburger">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            <li>
+                <a class="header__link" href="#ABOUT US">ABOUT US</a>
+            </li>
+            <li><button class="header__profile">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-            </button>
-    </header><!--END OF HEADER-->  
-    <main class="main container"><!--START OF MAIN CONTAINER-->
-        <section><!--HERO SECTION-->
-            <div class="RBG"></div>
-            <section class="section__hero">
-                <div class="dressire_txt_right"><h1>sire</h1></div>
+                </button>
+            </li>
+        </ul>
+        <button class="header__hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+        </button>
+
+    </header>
+    <main>
+        <article><!--Hero section-->
+            <section class="hero__section">
+                <div class="hero__background"></div>
             </section>
-            <section class="section__hero">
-                <div class="section__tagline"><h3>Browsing gowns has never been easier.<br>
-                    Giving you the dress that you desire.
-                </h3></div>
-                <div >
-                <a class="hero__button" href="#">BROWSE</a>
-            </div>
-            <div class="section__hero_bgdesign_left1">
-                <img src="./img/bg_design_black.png" alt="bg_design_black">
-            </div>
-            <div class="section__hero_bgdesign_left2">
-                <img src="./img/bg_design_black.png" alt="bg_design_black">
-            </div>
-            </section>
-            <div class="LBG"></div>
-            <section class="section__hero">
-                <div class="dressire_txt_left"><h1>dres</h1></div>
-                <div class="section__hero_bgdesign_right1" ><img src="./img/bg_design_white.png" alt="bg_design_white"></div>
-                <div class="section__hero_bgdesign_right2"><img src="./img/bg_design_white.png" alt="bg_design_white"></div>
-                <div class="section__hero_bgdesign_right3"><img src="./img/bg_design_white.png" alt="bg_design_white"></div>
+            <section class="hero__section">
+                <div class="hero__border_txt">
+                    <h1>DRES<strong>SIRE</strong></h1>
+                    <h3>"Providing You The Dress You Desire"</h3>
+                    <br>
+                    <h4>Browsing Gowns Has Never Been Easier.<br>
+                        Giving You The Dress That You Desire.
+                    </h4>
+                    <div><a href="#" class="hero__button">BROWSE</a>
+                        
+                    </div>
+                    
+                    </div>
             </section>
             <section>
-            <div class="centerBG"><img src="./img/bg_dress.png"></div>
-        </section><!--END OF HERO SECTION-->
-
-
-        <!--<section></section>-->
-        <!--<section></section>-->
-    </main> <!--END OF MAIN CONTAINER-->
-    <footer class="footer container"><!--START OF FOOTER-->
-    </footer><!--END OF FOOTER-->
-    
-<!--<script type="module" src="./src/main.js"></script>-->
+                <div class="hero_border_img"></div>
+                <div class="hero_border_img_design1"></div>
+                <div class="hero_border_img_design2"></div>
+                <div class="hero_border_img_design3"></div>
+            </section>
+        </article>
+        <!--End of Hero section-->
+        <article></article>
+        <article></article>
+    </main>
+    <!--<footer></footer>-->
 </body>
 </html>
