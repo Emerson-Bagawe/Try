@@ -343,6 +343,7 @@ height: 100vh;
 .highlight__product3{
     grid-column: 5/7;
 }
+/*responsiveness*/
 @media (max-width: 768px){
     .highlight__section{
         height: 100vh;
@@ -365,3 +366,4 @@ height: 100vh;
         --row-height:70vh;
     }
 }
+/*end of highlight section*/
