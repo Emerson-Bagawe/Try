@@ -83,6 +83,7 @@ outline: 1px solid var(--main-light-violet);
         display: flex;
         gap: 8.5rem;
         list-style: none;
+        z-index: 99;
     }
     .header__link:hover{
         color: var(--main-violet);
@@ -181,9 +182,12 @@ outline: 1px solid var(--main-light-violet);
 /*end of header*/
 /*about us section*/
 
+.about__section{
+    height: 93.9vh;
+}
 .about__section_border{
     width: 97%;
-    height: 85svh;
+    height: 90svh;
     margin-left: 1.5%;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -225,3 +229,83 @@ outline: 1px solid var(--main-light-violet);
 .team3{
     grid-column: 1/3;
 }
+/*footer*/
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    position: absolute;
+    background-color: var(--main-grey);
+    left: 0;
+    right: 0;
+    border: 0;
+    color: var(--main-white);
+    list-style: none;
+  }
+  .footer-content img{
+    width: 90px;
+    height: 90px;
+
+  }
+  .footer-content h4{
+    margin-bottom:1.5rem ;
+    font-size: 1.5rem;
+    color: var(--main-white);
+  }
+  .footer-content li{
+    margin-bottom: 16px;
+  }
+  .footer-content li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Sans-Serif;
+    transition: all .40s ease;
+    color: var(--main-white);
+    text-decoration: none;
+  }
+  .footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--main-white);
+  }
+  .footer-content p{
+    color: var(--main-white);
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+  }
+  .tagline p{
+    display: inline-block;
+    font-size: 22px;
+    color: var(--main-white);
+    margin-right: 17px;
+    transform-box: all .40s ease;
+  }
+  .icon a{
+    color: var(--main-white);
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+  }
+  .icon a:hover{
+    transform: translateY(-5px);
+  }
+    @media (max-width:1690px){
+    section{
+      padding: 50px 5% 40px;
+    }
+  }
+  @media (max-width:1120px){
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+      gap: 2rem;
+    }
+  }
+  @media (max-width:700px){
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+      gap: 2.5rem;
+    }
+  }
